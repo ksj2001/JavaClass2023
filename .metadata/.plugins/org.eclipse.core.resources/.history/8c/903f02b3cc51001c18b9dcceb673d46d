@@ -1,0 +1,111 @@
+package classpart07;
+import java.util.*;
+public class ClassEx07 {
+	Scanner scan = new Scanner(System.in);
+	// 멤버변수
+	String[]arAcc = {"1111","2222","3333","4444","5555"};
+	String[]arPw = {"1234","2345","3456","4567","5678"};
+	int[] arMoney = {87000,34000,17500,98000,12500};
+	int count = 5;
+	int menu = -1;
+	boolean run = true;
+	String inputAcc = "";
+	String inputPw = "";
+	
+	// 3333 로그인 중
+	int loginCheck = 2;
+	String currentStatus = arAcc[loginCheck]+" 로그인";
+	
+	//생성자
+	public void menu() { // 메뉴 함수
+		while(run) {
+			System.out.println("-------------------------");
+			System.out.println("계좌번호   비밀번호   계좌잔액");
+			System.out.println("-------------------------");
+			for(int i=0;i<arAcc.length;i++) {
+				System.out.println(arAcc[i]+"    "+arPw[i]+"    "+arMoney[i]);
+			}
+			System.out.println("-------------------------");
+			System.out.println("상태 : "+currentStatus);
+			System.out.println("-------------------------");
+			System.out.println("[Mega Bank]");
+			System.out.println("[1]회원가입");
+			System.out.println("[2]회원탈퇴");
+			System.out.println("[3]로그인");
+			System.out.println("[4]로그아웃");
+			System.out.println("[5]입금하기");
+			System.out.println("[6]이체하기");
+			System.out.println("[7]잔액조회");
+			System.out.println("[0]종료하기");
+			System.out.print("메뉴 선택 : ");
+			menu = scan.nextInt();
+			switch(menu) {
+			case 3:
+				logIn();
+				break;
+			case 4:
+				logOut();
+				break;
+			case 5:
+				deposit();
+				break;
+			case 6:
+				transfer();
+				break;
+			case 7:
+				check();
+				break;
+			case 0:
+				end();
+				break;
+			}
+			
+				
+		}
+	}
+	//메서드
+	public void logIn() { // 로그인 함수
+		if(loginCheck==-1) {
+			System.out.print("ID입력 : ");
+			inputAcc = scan.next();
+			System.out.print("PW입력 : ");
+			inputPw = scan.next();
+			for(int i=0;i<arAcc.length;i++) {
+				if(arAcc[i].equals(inputAcc)&&arPw[i].equals(inputPw)) {
+					System.out.println(arAcc[i]+"님, 환영합니다.");
+					loginCheck = i;
+					currentStatus = arAcc[loginCheck]+" 로그인";
+				}
+			}
+			if(loginCheck==-1) {
+				System.out.println("ID와 PW를 확인해주세요.");
+			}
+		}
+		else {
+			System.out.println("이미 로그인 된 상태입니다.");
+		}
+	}
+	public void logOut() { // 로그아웃 함수
+		if(loginCheck==-1) {
+			System.out.println("로그인 후 이용 가능합니다.");
+		}
+		else {
+			System.out.println("로그아웃 되었습니다.");
+			loginCheck = -1;
+			currentStatus = "로그아웃";
+		}
+	}
+	public void deposit() { // 입금하기 함수
+		
+	}
+	public void transfer() { // 이체하기 함수
+		
+	}
+	public void check() { // 잔액조회 함수
+		
+	}
+	public void end() { // 종료하기 함수
+		System.out.println("프로그램 종료");
+		run = false;
+	}
+}

@@ -1,0 +1,18 @@
+package arraylist02;
+import java.util.*;
+public class Student {
+	private int studentId;
+	private String studentName;
+	ArrayList<Subject> subject = new ArrayList<>();
+	public Student() { // 생성자 호출 시 참조자료형 생성
+
+	}
+	public Student(int studentId, String studentName) { // 생성자 호출 시 참조자료형 생성
+		this.studentId = studentId;
+		this.studentName = studentName;
+		
+
+	}
+	//메서드
+	
+}

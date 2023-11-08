@@ -1,0 +1,12 @@
+package classpart04;
+
+class Ex04{
+	int[] hakbuns = {1001, 1002, 1003, 1004,1005};
+	int[] scores = new int[5];
+}
+public class ClassEx04 {
+		public static void main(String[] args) {
+				//¹®Á¦1
+
+		}
+}

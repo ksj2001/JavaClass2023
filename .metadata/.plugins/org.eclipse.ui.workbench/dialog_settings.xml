@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.project"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.buildship.ui.creationwizards"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.oomph"/>
+			<item value="org.eclipse.ui.Examples"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\KIM\Downloads\megabox_Movie (3).zip"/>
+			<item value="C:\Users\KIM\Downloads\megabox_Movie (2).zip"/>
+			<item value="C:\Users\KIM\Downloads\megabox_Movie (1).zip"/>
+			<item value="C:\Users\KIM\Downloads\megabox_Movie.zip"/>
+			<item value="C:\Users\KIM\Downloads\streamEx01 (2).zip"/>
+			<item value="C:\Users\KIM\Downloads\streamEx_Person.zip"/>
+			<item value="C:\Users\KIM\Downloads\streamEx01 (1).zip"/>
+			<item value="C:\Users\KIM\Downloads\megabox.zip"/>
+			<item value="C:\Users\KIM\Downloads\spcMaster2019.zip"/>
+			<item value="C:\Users\KIM\Downloads\capitalGame.zip"/>
+			<item value="C:\Users\KIM\Downloads\hashMapEx (1).zip"/>
+			<item value="C:\Users\KIM\Downloads\omok2.zip"/>
+			<item value="C:\Users\KIM\Downloads\arrayListWord.zip"/>
+			<item value="C:\Users\KIM\Downloads\arrayListStudent (1).zip"/>
+			<item value="C:\Users\KIM\Downloads\omok.zip"/>
+			<item value="C:\Users\KIM\Downloads\shopmol.zip"/>
+			<item value="C:\Users\KIM\Downloads\shopmal.zip"/>
+			<item value="C:\Users\KIM\Desktop\aa.zip"/>
+			<item value="C:\Users\KIM\Desktop\newmove.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\KIM\Downloads\megabox_Movie.zip"/>
+			<item value="C:\Users\KIM\Downloads\subInputOutputStream.zip"/>
+			<item value="C:\Users\KIM\Downloads\stringInputOutputStream.zip"/>
+			<item value="C:\Users\KIM\Downloads\file.zip"/>
+			<item value="C:\Users\KIM\Downloads\byteInputOutputStream.zip"/>
+			<item value="C:\Users\KIM\Downloads\ioStreamEx.zip"/>
+			<item value="C:\Users\KIM\Downloads\streamEx.zip"/>
+			<item value="C:\Users\KIM\Downloads\streamEx02.zip"/>
+			<item value="C:\Users\KIM\Downloads\streamEx01.zip"/>
+			<item value="C:\Users\KIM\Downloads\lambdaEx.zip"/>
+			<item value="C:\Users\KIM\Downloads\collectionsEx.zip"/>
+			<item value="C:\Users\KIM\Downloads\outer.zip"/>
+			<item value="C:\Users\KIM\Downloads\myCalendar.zip"/>
+			<item value="C:\Users\KIM\Downloads\calendar.zip"/>
+			<item value="C:\Users\KIM\Downloads\collections.zip"/>
+			<item value="C:\Users\KIM\Downloads\hashMapEx.zip"/>
+			<item value="C:\Users\KIM\Downloads\collection.zip"/>
+			<item value="C:\Users\KIM\Downloads\arrayList.zip"/>
+			<item value="C:\Users\KIM\Downloads\arrayListStudent.zip"/>
+			<item value="C:\Users\KIM\Downloads\arrayListWord.zip"/>
+		</list>
+	</section>
+</section>

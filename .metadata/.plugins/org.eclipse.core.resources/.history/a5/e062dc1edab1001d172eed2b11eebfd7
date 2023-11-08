@@ -1,0 +1,14 @@
+package myCalendar;
+
+import java.util.Scanner;
+
+public class CalendarMain {
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		int year = scan.nextInt();
+		int month = scan.nextInt();
+		CalendarTest ct = new CalendarTest(year,month);
+		
+	}
+}

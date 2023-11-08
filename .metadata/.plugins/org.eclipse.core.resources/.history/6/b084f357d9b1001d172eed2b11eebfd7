@@ -1,0 +1,39 @@
+package myCalendar;
+
+import java.util.Calendar;
+
+public class CalendarTest {
+	private int year;
+	private int month;
+	int[][] calendarForm = new int[6][7];
+	
+	public CalendarTest() {}
+	public CalendarTest(int year, int month) {
+		this.year = year;
+		this.month = month;
+	}
+	
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	public int getMonth() {
+		return month;
+	}
+	public void setMonth(int month) {
+		this.month = month;
+	}
+	
+	public void setCalendarForm() {
+		Calendar calendar = Calendar.getInstance();
+		calendar.set(year, month-1, 1);
+		calendarForm[0][calendar.get(Calendar.DAY_OF_WEEK)-1] = 1;
+		int lastDay = calendar.getActualMaximum(Calendar.DATE);
+		for(int i=0;i<lastDay;i++) {
+			
+		}
+	}
+	
+}

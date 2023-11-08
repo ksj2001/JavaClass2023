@@ -1,0 +1,34 @@
+package classpart04;
+import java.util.*;
+class Ex04{
+	int[] hakbuns = {1001, 1002, 1003, 1004,1005};
+	int[] scores = new int[5];
+}
+public class ClassEx04 {
+	public static void main(String[] args) {
+		Random ran = new Random();
+		Ex04 ex = new Ex04();
+		int total = 0;
+		double avg = 0.0;
+		int pass_num = 0;
+		//문제1
+		for(int i=0;i<ex.scores.length;i++) {
+			ex.scores[i] = ran.nextInt(100)+1;
+		}
+		System.out.println(Arrays.toString(ex.scores));
+		//문제2
+		for(int i=0;i<ex.scores.length;i++) {
+			total += ex.scores[i];
+		}
+		avg = (double)total / (double)ex.scores.length;
+		System.out.println("총점("+total+") 평균("+avg+")");
+		//문제3
+		for(int i=0;i<ex.scores.length;i++) {
+			if(ex.scores[i]>=60) {
+				pass_num++;
+			}
+		}
+		System.out.println("합격생 수: "+pass_num+"명");
+		//문제4
+	}
+}

@@ -1,0 +1,16 @@
+package classpart98;
+import java.util.*;
+public class Program {
+	Scanner scan = new Scanner(System.in);
+	int[] seat = {0,0,0,0,0,0,0};
+	int menu; 
+	int ppl; // 예매 인원
+	int index; // 좌석 번호
+	int total = 0; // 총 매출액
+	boolean run = true; // 반복문 기본값
+	public void selectMenu() {
+		while(run) {
+			
+		}
+	}
+}

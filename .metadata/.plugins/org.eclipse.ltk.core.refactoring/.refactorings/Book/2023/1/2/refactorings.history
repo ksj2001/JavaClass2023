@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;chapter_06_Prob05.TelePhone.java&apos; to &apos;Telephone.java&apos;&#x0D;&#x0A;- Original project: &apos;Book&apos;&#x0D;&#x0A;- Original element: &apos;chapter_06_Prob05.TelePhone.java&apos;&#x0D;&#x0A;- Renamed element: &apos;chapter_06_Prob05.Telephone.java&apos;" description="Rename compilation unit &apos;TelePhone.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;chapter_06_Prob05{TelePhone.java" name="Telephone.java" references="false" stamp="1673155406055" version="1.0"/>
+</session>
